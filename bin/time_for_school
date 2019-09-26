@@ -39,7 +39,7 @@ puts "Nora just learned, '#{nora.knowledge.first} from Avi."
 
 puts "And Nora learned this: '#{nora.knowledge.last}'."
 
-Student.knowledge.each do |knowledge| puts knowledge end 
-
+Avi.knowledge.each do |knowledge| puts knowledge end 
+Nora.knowledge.each do |knowledge| puts knowledge end 
 
 
