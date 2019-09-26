@@ -18,12 +18,14 @@ avi.last_name = "Flombaum"
 
 
 some_knowledge = avi.teach 
+more_knowledge = avi.teach 
 
 steve.learn(some_knowledge)
+steve.learn(more_knowledge)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
 
-puts jim.first_name
-puts jim.last_name 
+puts "And learned this: '#{steve.knowledge.last}' from Avi"
+
 
 
