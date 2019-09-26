@@ -39,5 +39,7 @@ puts "Nora just learned, '#{nora.knowledge.first} from Avi."
 
 puts "And Nora learned this: '#{nora.knowledge.last}'."
 
+Student.
+
 
 
